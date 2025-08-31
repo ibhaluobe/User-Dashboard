@@ -1,20 +1,36 @@
-#User Dashboard
-A responsive User Dashboard application that allows users to view, search, create, update, and delete user profiles.
-Built with HTML, CSS, and JavaScript using the JSONPlaceholder API
+User Dashboard
+📖 Overview
+This project is a responsive user dashboard built with HTML, CSS, and JavaScript.
+It integrates with the JSONPlaceholder API to fetch, display, and manage user data.
 
-🚀 Features
+✨ Features:
+📱 Responsive & Mobile-friendly layout.
+🎨 Light/Dark Mode Toggle with local storage persistence.
+🔍 Search & Filter Users by name, email, or phone.
+➕ Create User (via modal form).
+✏️ Update User information (via modal form).
+❌ Delete User with confirmation dialog.
+🗂️ View User Details in a modal box.
+✅ Toast Notifications for actions like delete success.
 
-📱 Responsive Layout – works seamlessly on desktop and mobile.
-🎨 Light/Dark Mode toggle with persistence using localStorage.
-🔍 Search Functionality – filter users by name, email, or phone.
-📝 CRUD Operations – create, update, and delete users (mocked with JSONPlaceholder API).
-📦 Reusable Modals – form modal for user input, details modal, and confirm modal for deletion.
-✅ UI Feedback – toast notifications and confirmation prompts.
+Technologies used:
+HTML5 (semantic structure)
+CSS3 (custom properties, responsive grid, dark mode)
+Vanilla JavaScript (DOM manipulation, API integration, state handling)
+JSONPlaceholder API (mock REST API for CRUD operations)
 
-🛠️ Tech Stack
-HTML5 – semantic structure
-CSS3 – responsive styling, animations, and dark mode
-JavaScript (ES6) – API integration, DOM manipulation, and app logic
-JSONPlaceholder API – mock data for users
+⚙️ Setup Instructions
+Clone the repository
+git clone https://github.com/ibhaluobe/User-Dashboard.git
+cd User-Dashboard
+
+🚀 Potential Improvements
+📊 Pagination for better handling of large datasets.
+⚠️ Error Handling with user-friendly messages when API calls fail.
+🌐 Real Backend Integration instead of mock API (JSONPlaceholder).
+🔄 Loading Indicators while fetching or updating data.
 
 
+🧑‍🤝‍🧑 User Authentication for secure access.
+
+📤 Deployment to GitHub Pages or Netlify for live access.
